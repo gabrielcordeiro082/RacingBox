@@ -22,7 +22,7 @@ export default function LoginScreen (props: LoginScreenProps) {
         //delay
         await new Promise((resolve, error) => setTimeout(() => resolve(''), 2000))
         console.log(dados)
-        if (dados.email == 'gabrielpatricyo@gmail.com' && dados.senha == '12345678')
+        if (dados.email == 'gabrielpatricyo@gmail.com' && dados.senha == '123456')
           nav.navigate('Home')
         else
             setErro('Login ou Senha incorreta')
@@ -40,7 +40,7 @@ export default function LoginScreen (props: LoginScreenProps) {
                     initialValues={{email:'', senha: ''}}
                     validationSchema={Yup.object({
                     email: Yup.string().required('Atenção! E-mail de acesso obrigatório').email('Coloque o seu E-mail'),
-                    senha: Yup.string().required('Atenção! Senha de acesso obrigatória').min(8,'Senha com o minimo de 8 digitos')})}
+                    senha: Yup.string().required('Atenção! Senha de acesso obrigatória').min(5,'Senha com o minimo de 5 digitos')})}
                     onSubmit={login}>
                     {({ handleChange, touched, handleSubmit, handleBlur, isValid, isSubmitting, errors}) => (
                     
