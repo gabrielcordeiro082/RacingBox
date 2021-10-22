@@ -22,7 +22,7 @@ export default function LoginScreen (props: LoginScreenProps) {
         //delay
         await new Promise((resolve, error) => setTimeout(() => resolve(''), 2000))
         console.log(dados)
-        if (dados.email == 'gabrielpatricyo@gmail.com' && dados.senha == '12345678')
+        if (dados.email == 'administrador@gmail.com' && dados.senha == '12345678')
           nav.navigate('Home')
         else
             setErro('Login ou Senha incorreta')

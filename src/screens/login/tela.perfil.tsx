@@ -23,8 +23,8 @@ export default function PerfilScreen(props: PerfilScreenProps) {
                 <Text style={styles.text1}></Text>
             </View>
             <View style={styles.container2}>
-                <Text style={styles.text2}>Nome: Gabriel Cordeiro</Text>
-                <Text style={styles.text2}>E-mail: gabrielpatricyo@gmail.com</Text>
+                <Text style={styles.text2}>Nome: Administrador</Text>
+                <Text style={styles.text2}>E-mail: administrador@gmail.com</Text>
                 <Text style={styles.text2}>Senha: ********</Text>
             </View>
             <View style={styles.container3}>
