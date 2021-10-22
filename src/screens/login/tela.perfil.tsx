@@ -15,7 +15,7 @@ export default function PerfilScreen (props: PerfilScreenProps) {
     const nav = useNavigation();  
 
     return (
-        <ImageBackground source = { require('./../../../assets/imgs/bg.png')}
+        <ImageBackground source = { require('./../../../assets/imgs/bgPerfil.png')}
                                       style={styles.background}> 
         <AppToolbar /> 
                   <View style={styles.container}>

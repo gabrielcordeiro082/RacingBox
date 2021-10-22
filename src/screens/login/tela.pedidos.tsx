@@ -15,7 +15,7 @@ export default function PedidosScreen(props: PedidosScreenProps) {
     const nav = useNavigation();
 
     return (
-        <ImageBackground source={require('./../../../assets/imgs/bg.png')}
+        <ImageBackground source={require('./../../../assets/imgs/bgPedidos.png')}
             style={styles.background}>
         <AppToolbar />
             <View style={styles.container}>
