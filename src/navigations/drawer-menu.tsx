@@ -30,10 +30,6 @@ export function AppNavegacao() {
                 drawerLabel: 'Carrinho',
                 drawerIcon: () => <MaterialIcons name= "shopping-cart" size={35}/>
             }}/>
-            <Drawer.Screen name='pedidos' component={PedidosScreen} options={{
-                drawerLabel: 'Pedidos',
-                drawerIcon: () => <MaterialIcons name= "receipt" size={35}/>
-            }}/>
             <Drawer.Screen name='sair' component={LoginScreen} options={{
                 drawerLabel: 'Sair',
                 drawerIcon: () => <MaterialIcons name= "logout" size={35}/>
